@@ -1,0 +1,9 @@
+.formulario{
+    background-color: thistle;
+    border-radius:  10% !important;
+}
+
+.boton-guadar{
+    background-color: darkorchid;
+    color: whitesmoke;
+}

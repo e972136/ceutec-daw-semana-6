@@ -5,43 +5,46 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/css/style.css">
     <title>Gaspar</title>
 </head>
 
 <body>
     <div class="container">
-        <div class="row">
+        <div class="row ">
             <!-- formulario -->
-            <div class="col-sm-12 col-md-6 col-lg-6 mb-5">
-                <h2>Ingrese su Informacion</h2>
+            <div class="col-sm-12 col-md-6 col-lg-6 mb-5 card formulario ">
+                <div class="row text-center mt-3">
+                    <h2>Ingrese su Informacion</h2>
+                </div>                
                 <!-- <form class="mt-5" action="/action_page.php"> -->
-                <form class="mt-5">
+                <form class="mt-3 mb-5 ">
                     <div class="mb-3 mt-3">
                         <input type="text" 
-                        class="form-control" 
+                        class="form-control text-center" 
                         id="nombre" 
                         placeholder="Nombre Completo" 
                         name="nombre">
                     </div>
                     <div class="mb-3 mt-3">
-                        <input type="email" class="form-control" id="email" placeholder="Correo Electronico"
+                        <input type="email" class="form-control text-center" id="email" placeholder="Correo Electronico"
                             name="email">
                     </div>
                     <div class="mb-3">
-                        <input type="text" class="form-control" id="telefono" placeholder="Numero de telefono sin guion"
+                        <input type="text" class="form-control text-center" id="telefono" placeholder="Numero de telefono sin guion"
                             name="telefono">
                     </div>
                     <div class="mb-3">
-                        <input type="number" class="form-control" id="edad" placeholder="Edad" name="edad">
+                        <input type="number" class="form-control text-center" id="edad" placeholder="Edad" name="edad">
                     </div>
                     <div class="d-grid gap-2">
-                        <button type="button" class="btn btn-primary" id="btnGuardar">Guardar</button>
+                        <button type="button" class="btn boton-guadar" id="btnGuardar" >Guardar</button>
                     </div>                    
                 </form>
             </div>
 
             <!-- informacion -->
-            <div class="col-sm-12 col-md-6 col-lg-6">
+            <div class="col-sm-12 col-md-6 col-lg-6 card">
                 <ul class="list-group mt-5"  id="listaInfo">
                     <li class="list-group-item">Ingresar Informacion</li>
                 </ul>
