@@ -5,8 +5,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/css/bootstrap.min.css">
-
-
     <title>Gaspar</title>
 </head>
 
@@ -14,12 +12,16 @@
     <div class="container">
         <div class="row">
             <!-- formulario -->
-            <div class="col-sm-12 col-md-6 col-lg-6">
+            <div class="col-sm-12 col-md-6 col-lg-6 mb-5">
                 <h2>Ingrese su Informacion</h2>
                 <!-- <form class="mt-5" action="/action_page.php"> -->
                 <form class="mt-5">
                     <div class="mb-3 mt-3">
-                        <input type="text" class="form-control" id="nombre" placeholder="Nombre Completo" name="nombre">
+                        <input type="text" 
+                        class="form-control" 
+                        id="nombre" 
+                        placeholder="Nombre Completo" 
+                        name="nombre">
                     </div>
                     <div class="mb-3 mt-3">
                         <input type="email" class="form-control" id="email" placeholder="Correo Electronico"
@@ -33,18 +35,15 @@
                         <input type="number" class="form-control" id="edad" placeholder="Edad" name="edad">
                     </div>
                     <div class="d-grid gap-2">
-                        <button type="submit" class="btn btn-primary" id="btnGuardar">Guardar</button>
+                        <button type="button" class="btn btn-primary" id="btnGuardar">Guardar</button>
                     </div>                    
                 </form>
             </div>
 
             <!-- informacion -->
             <div class="col-sm-12 col-md-6 col-lg-6">
-                <h2>
-                    Informacion Ingresada
-                </h2>
-                <ul class="list-group mt-5" id="listaInfo">
-                    <li class="list-group-item">A</li>
+                <ul class="list-group mt-5"  id="listaInfo">
+                    <li class="list-group-item">Ingresar Informacion</li>
                 </ul>
             </div>
 
